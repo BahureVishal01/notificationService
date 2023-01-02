@@ -9,7 +9,6 @@
   * smtp host details
   * credentials if needed
   */
- 
  module.exports = nodemailer.createTransport({
      port : 465,
      host : "smtp.gmail.com",

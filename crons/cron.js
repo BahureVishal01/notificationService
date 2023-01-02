@@ -23,8 +23,6 @@
      }) 
  
      
- 
- 
      notifications.forEach( notification => {
          console.log(notification.recepientEmails);
          const mailData = {

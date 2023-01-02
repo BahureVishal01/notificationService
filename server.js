@@ -30,13 +30,10 @@ mongoose.connect(dbConfig.DB_URL, ()=>{
  */
 require('./routes/ticketNotification.route')(app);
 
-
 /**
  * Require the cron file
  */
 require("./crons/cron");
-
-
 
 /**
  * Starting the server

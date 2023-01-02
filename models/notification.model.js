@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 const constants = require("../utils/constants");
 
 
-
 const notificationSchema = new mongoose.Schema({
     subject : {
         type: String,
@@ -42,5 +41,6 @@ const notificationSchema = new mongoose.Schema({
         }
     }
 });
+
 
 module.exports = mongoose.model("Notification", notificationSchema);

@@ -4,8 +4,6 @@
 
  const Notification = require("../models/notification.model");
 
-
-
  /**
   * Accept a new notification request and retun the tracking id
   */
